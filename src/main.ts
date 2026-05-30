@@ -1,5 +1,17 @@
 import { createApp } from 'vue'
-import './style.css'
+import { createPinia } from 'pinia'
 import App from './App.vue'
+import router from './router'
+import './style.css'
+import { useThemeStore } from './store/theme'
 
-createApp(App).mount('#app')
+const app = createApp(App)
+
+app.use(createPinia())
+app.use(router)
+
+app.mount('#app')
+
+// Apply saved theme on initial load
+const themeStore = useThemeStore()
+themeStore.apply()
