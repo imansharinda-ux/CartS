@@ -1,0 +1,194 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin User",
+      "email": "admin@carts.lk",
+      "password": "admin123",
+      "role": "admin",
+      "joined": "2024-01-10"
+    },
+    {
+      "id": 2,
+      "name": "Nimasha Perera",
+      "email": "nimasha@carts.lk",
+      "password": "user123",
+      "role": "customer",
+      "joined": "2024-03-22"
+    },
+    {
+      "id": 3,
+      "name": "Kasun Fernando",
+      "email": "kasun@carts.lk",
+      "password": "user123",
+      "role": "customer",
+      "joined": "2024-05-14"
+    },
+    {
+      "id": 4,
+      "name": "Ishara Jayasuriya",
+      "email": "ishara@carts.lk",
+      "password": "user123",
+      "role": "customer",
+      "joined": "2024-07-02"
+    }
+  ],
+  "products": [
+    {
+      "id": 101,
+      "name": "Handwoven Cane Handbag",
+      "category": "accessories",
+      "price": 8990,
+      "offerPrice": 6990,
+      "image": "https://images.unsplash.com/photo-1591561954557-26941169b49e?w=600&q=80",
+      "description": "A handcrafted cane handbag made by local Sri Lankan artisans, perfect for everyday elegance.",
+      "rating": 4.6,
+      "reviews": 128,
+      "stock": 24,
+      "isNew": true
+    },
+    {
+      "id": 102,
+      "name": "Ceylon Gemstone Pendant",
+      "category": "accessories",
+      "price": 15500,
+      "offerPrice": 12900,
+      "image": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=600&q=80",
+      "description": "Genuine Ceylon gemstone pendant set in sterling silver, a timeless statement piece.",
+      "rating": 4.8,
+      "reviews": 96,
+      "stock": 15,
+      "isNew": true
+    },
+    {
+      "id": 103,
+      "name": "Beaded Layered Bracelet",
+      "category": "accessories",
+      "price": 2400,
+      "offerPrice": 1899,
+      "image": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=600&q=80",
+      "description": "A trio of beaded bracelets that layer beautifully for a boho-chic look.",
+      "rating": 4.3,
+      "reviews": 64,
+      "stock": 50,
+      "isNew": false
+    },
+    {
+      "id": 201,
+      "name": "Handloom Cotton Saree",
+      "category": "clothing",
+      "price": 12500,
+      "offerPrice": 9990,
+      "image": "https://images.unsplash.com/photo-1610030181087-540c3a1c72fa?w=600&q=80",
+      "description": "Traditional handloom cotton saree woven by craftsmen from the South, breathable and elegant.",
+      "rating": 4.7,
+      "reviews": 210,
+      "stock": 18,
+      "isNew": true
+    },
+    {
+      "id": 202,
+      "name": "Linen Casual Shirt",
+      "category": "clothing",
+      "price": 4500,
+      "offerPrice": 3590,
+      "image": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=600&q=80",
+      "description": "Breathable pure linen shirt tailored for Sri Lanka's tropical climate.",
+      "rating": 4.4,
+      "reviews": 87,
+      "stock": 40,
+      "isNew": false
+    },
+    {
+      "id": 203,
+      "name": "Batik Print Kurta",
+      "category": "clothing",
+      "price": 6200,
+      "offerPrice": 4990,
+      "image": "https://images.unsplash.com/photo-1622470953794-aa9c70b0fb9d?w=600&q=80",
+      "description": "Hand-stamped batik kurta with vibrant island-inspired patterns.",
+      "rating": 4.5,
+      "reviews": 73,
+      "stock": 30,
+      "isNew": true
+    },
+    {
+      "id": 301,
+      "name": "Coconut Oil Hair Serum",
+      "category": "selfcare",
+      "price": 1450,
+      "offerPrice": 1090,
+      "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=600&q=80",
+      "description": "Cold-pressed Sri Lankan coconut oil serum for deep hair nourishment.",
+      "rating": 4.6,
+      "reviews": 154,
+      "stock": 80,
+      "isNew": false
+    },
+    {
+      "id": 302,
+      "name": "Ceylon Cinnamon Body Scrub",
+      "category": "selfcare",
+      "price": 1990,
+      "offerPrice": 1590,
+      "image": "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=600&q=80",
+      "description": "Exfoliating body scrub infused with real Ceylon cinnamon and sea salt.",
+      "rating": 4.5,
+      "reviews": 91,
+      "stock": 60,
+      "isNew": true
+    },
+    {
+      "id": 303,
+      "name": "Herbal Face Care Set",
+      "category": "selfcare",
+      "price": 3200,
+      "offerPrice": 2690,
+      "image": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=600&q=80",
+      "description": "A 3-step Ayurvedic-inspired face care set using local herbal extracts.",
+      "rating": 4.7,
+      "reviews": 108,
+      "stock": 35,
+      "isNew": true
+    },
+    {
+      "id": 401,
+      "name": "Genuine Leather Wallet",
+      "category": "leather goods",
+      "price": 5200,
+      "offerPrice": 3990,
+      "image": "https://images.unsplash.com/photo-1627123424574-724758594e93?w=600&q=80",
+      "description": "Slim bifold wallet crafted from full-grain leather, built to last for years.",
+      "rating": 4.8,
+      "reviews": 176,
+      "stock": 45,
+      "isNew": false
+    },
+    {
+      "id": 402,
+      "name": "Leather Messenger Bag",
+      "category": "leather goods",
+      "price": 18900,
+      "offerPrice": 15900,
+      "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&q=80",
+      "description": "Handstitched leather messenger bag with brass fittings, ideal for work or travel.",
+      "rating": 4.9,
+      "reviews": 62,
+      "stock": 12,
+      "isNew": true
+    },
+    {
+      "id": 403,
+      "name": "Leather Belt - Classic Brown",
+      "category": "leather goods",
+      "price": 3400,
+      "offerPrice": 2790,
+      "image": "https://images.unsplash.com/photo-1624222247344-550fb60583dc?w=600&q=80",
+      "description": "A classic full-grain leather belt with a polished antique buckle.",
+      "rating": 4.4,
+      "reviews": 54,
+      "stock": 70,
+      "isNew": false
+    }
+  ]
+}
